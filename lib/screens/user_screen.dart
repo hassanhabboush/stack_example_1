@@ -63,26 +63,20 @@ class _UserScreenState extends State<UserScreen> {
                       borderRadius: BorderRadius.circular(30),
                     ),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Row(
-                          crossAxisAlignment: CrossAxisAlignment.baseline,
-                          textBaseline: TextBaseline.alphabetic,
-                          children: [
-                            Text(
-                              '112',
-                              style: TextStyle(
-                                  fontSize: 27,
-                                  fontWeight: FontWeight.bold,
-                                  fontFamily: 'fonts/Almarai-ExtraBold.ttf'),
-                            ),
-                            SizedBox(width: 5),
-                            Text('Works',style: TextStyle(fontSize: 18,
-                                fontWeight: FontWeight.w600,
-                                fontFamily: 'fonts/Almarai-Bold.ttf'),),
-                          ],
+                        Text(
+                          '112',
+                          style: TextStyle(
+                              fontSize: 27,
+                              fontWeight: FontWeight.bold,
+                              fontFamily: 'fonts/Almarai-ExtraBold.ttf'),
                         ),
-                        SizedBox(width: 30),
+                        SizedBox(width: 5),
+                        Text('Works',style: TextStyle(fontSize: 18,
+                            fontWeight: FontWeight.w600,
+                            fontFamily: 'fonts/Almarai-Bold.ttf'),),
+                        SizedBox(width: 85),
                         Stack(
                           alignment: Alignment.centerLeft,
                           children: [
